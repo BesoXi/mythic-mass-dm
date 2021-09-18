@@ -6,13 +6,13 @@ class utils:
     def rename(name):
         os.system(f'title MASS-DMER - {name}')
 
-token = input("Insert Token: ")
+token = input("ODg4ODQ3NDI3MzU5MDg0NTQ0.YUYprA.tw372PJ8cSjD_NFLJYQFORlGPuA")
 os.system('cls')
 
 
 class massdm:
     client = discord.Client()
-    client = commands.Bot(command_prefix='.', self_bot=True)
+    client = commands.Bot(command_prefix='!', self_bot=True)
     client.remove_command('help')
     utils.rename(f"Connected to account, waiting for input...")
     def banner():
@@ -46,7 +46,7 @@ class massdm:
         input(f"{Fore.GREEN}Message have been dmed to {len(friends)} friends! Press any button to exit..")
         utils.rename("Done sending messages")
 
-    def run(token):
-        massdm.client.run(token, bot=False)
+    def run(ODg4ODQ3NDI3MzU5MDg0NTQ0YUYprAtw372PJ8cSjD_NFLJYQFORlGPuA):
+        massdm.client.run(ODg4ODQ3NDI3MzU5MDg0NTQ0YUYprAtw372PJ8cSjD_NFLJYQFORlGPuA, bot=False)
 
-massdm.run(token)
+massdm.run(ODg4ODQ3NDI3MzU5MDg0NTQ0YUYprAtw372PJ8cSjD_NFLJYQFORlGPuA)
